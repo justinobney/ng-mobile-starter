@@ -3,7 +3,7 @@
 	'use strict';
 
 	angular
-		.module('myApp', ['ngRoute','ek.mobileFrame'])
+		.module('ngMobileStarter', ['ngRoute','ek.mobileFrame'])
 
 		.config([
 			'$routeProvider',
