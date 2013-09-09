@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+a:link,
+a:visited,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.mobile-header,
+.mobile-footer {
+  background-color: #BBB;
+}
+
+.mobile-content {
+  background-color: #F1F1F1;
+}
+
+.mobile-header-inner,
+.mobile-content-inner,
+.mobile-footer-inner {
+  padding: 0 .625em;
+}
+
+.mobile-header-inner {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: left;
+}
+
+.mobile-header-inner strong {
+  line-height: 40px;
+  font-size: 1.5em;
+}
+
+.mobile-content h1 {
+  padding: 0 .416667em;
+}
+
+.mobile-footer small {
+  line-height: 30px;
+}
+
+.search-results h2 {
+  font-size: 1.25em;
+}
+
+@media (max-width: 480px) {
+
+  .mobile-header-inner strong {
+      font-size: 1.1em;
+  }
+}
+
+
