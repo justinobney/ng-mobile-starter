@@ -24,6 +24,7 @@
 .main-nav-item {
   border-top: 1px solid rgba(255,255,255,.2);
   border-bottom: 1px solid rgba(0,0,0,.05);
+  padding: 5px 0;
 }
 
 .main-nav-item a {
@@ -38,9 +39,11 @@
   text-align: center;
 }
 
-.main-nav-item a small {
+.main-nav-item small {
     display: block;
     font-size: 14px;
+    text-align: center;
+    color: #FFF;
 }
 
 .mobile-nav-toggle {
