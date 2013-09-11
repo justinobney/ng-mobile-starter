@@ -12,11 +12,14 @@ a:hover {
 
 .mobile-header,
 .mobile-footer {
-  background-color: #BBB;
+  color: #FFF;
+  background-color: #258B83;
 }
 
 .mobile-content {
   background-color: #F1F1F1;
+  background: url('http://dl.dropboxusercontent.com/u/2857953/img/purty_wood.png');
+  padding: 5px 5px 0;
 }
 
 .mobile-header-inner,
@@ -34,6 +37,12 @@ a:hover {
 .mobile-header-inner strong {
   line-height: 40px;
   font-size: 1.5em;
+}
+
+.mobile-content-inner {
+    background: #FFF;
+    border: solid 2px #AAA;
+    border-radius: 5px;
 }
 
 .mobile-content h1 {
