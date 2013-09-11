@@ -1,5 +1,5 @@
 .mobile-nav {
-  background-color: #DDD;
+  background-color: #353535;
   box-shadow: inset -.0625em 0 .625em rgba(0,0,0,.6);
 }
 
@@ -29,10 +29,18 @@
 .main-nav-item a {
   display: block;
   padding: 0 .625em;
-  line-height: 2.8;
+  line-height: 1.5;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -moz-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+  font-size: 35px;
+  text-align: center;
+}
+
+.main-nav-item a small {
+    display: block;
+    font-size: 14px;
 }
 
 .mobile-nav-toggle {
