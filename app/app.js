@@ -9,7 +9,6 @@
 			'$routeProvider',
 			'$mobileFrameProvider',
 			function ($routeProvider, $mobileFrameProvider) {
-
 				$routeProvider
 					.when('/', {
 						templateUrl: 'app/views/index.tmpl.html'
@@ -27,9 +26,8 @@
 
 					$mobileFrameProvider
 						.setHeaderHeight(50)
-						.setFooterHeight(30)
+						.setFooterHeight(0)
 						.setNavWidth(200);
-
 			}
 		])
 
